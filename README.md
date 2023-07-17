@@ -54,113 +54,82 @@ Permitir o registro de entradas de estoque de produtos, informando a quantidade 
 Oferecer aos clientes a opção de realizar pedidos por meio de mensagens, seja através de um chat interno no aplicativo ou utilizando serviços de mensagens externas, como WhatsApp.
 * Vendas: 
 Registrar as vendas realizadas pelo aplicativo, incluindo os produtos vendidos, quantidade, preço unitário e total da venda.
-Opções de pagamento
-Oferecer diferentes formas de pagamento, incluindo cartão de crédito, dinheiro e opção de
-fiado.
-Cadastro de Clientes
-Permitir o cadastro de clientes, incluindo informações como nome, endereço, telefone, e-mail,
-informações de pagamento e histórico de compras.
-5
-Documentação de Software e Projetos
-Por: Bruno Bertin Marquez
-Geração de Relatórios
+#### Opções de pagamento
+Oferecer diferentes formas de pagamento, incluindo cartão de crédito, dinheiro e opção de fiado.
+#### Cadastro de Clientes
+Permitir o cadastro de clientes, incluindo informações como nome, endereço, telefone, e-mail, informações de pagamento e histórico de compras.
+
+#### Geração de Relatórios
 Gerar relação de relatórios necessários a gestão do comércio.
-Desenvolvimento
+
+### Desenvolvimento
 Bruno Bertin Marquez
-Introdução
-O objetivo deste documento é levantar e descrever os requisitos do aplicativo móvel para
-comércios. O aplicativo visa fornecer funcionalidades que facilitam a gestão de produtos,
-estoque, pedidos, vendas, clientes e pagamentos para comércios em geral.
-Escopo do Projeto
-Descrição do Aplicativo
+### Introdução
+O objetivo deste documento é levantar e descrever os requisitos do aplicativo móvel para comércios. O aplicativo visa fornecer funcionalidades que facilitam a gestão de produtos, estoque, pedidos, vendas, clientes e pagamentos para comércios em geral.
+### Escopo do Projeto
+#### Descrição do Aplicativo
 O aplicativo móvel para comércios será desenvolvido para dispositivos móveis, como
-smartphones e tablets. Ele terá uma interface intuitiva e fácil de usar, proporcionando uma
-experiência amigável para os usuários.
-Funcionalidades Principais
+smartphones e tablets. Ele terá uma interface intuitiva e fácil de usar, proporcionando uma experiência amigável para os usuários.
+#### Funcionalidades Principais
 O aplicativo terá as seguintes funcionalidades principais:
-Cadastro de Produtos
+* Cadastro de Produtos: 
 Os usuários poderão se cadastrar nos produtos disponíveis em suas negociações.
-As informações dos produtos a serem cadastradas incluem nome, descrição, código, preço,
-categoria, fornecedor, entre outros.
-Entrada de Estoque de Produtos
+As informações dos produtos a serem cadastradas incluem nome, descrição, código, preço,categoria, fornecedor, entre outros.
+* Entrada de Estoque de Produtos: 
 Os usuários podem registrar a entrada de novos produtos em seu estoque.
 Será necessário informar a quantidade, dados e fornecedor da entrada de estoque.
-6
-Documentação de Software e Projetos
-Por: Bruno Bertin Marquez
-Pedidos via Mensagem
+* Pedidos via Mensagem:
 Os clientes podem realizar pedidos por meio de mensagens no aplicativo.
-Os usuários podem visualizar e gerenciar esses pedidos, incluindo a confirmação, preparação
-e entrega.
-Vendas
+Os usuários podem visualizar e gerenciar esses pedidos, incluindo a confirmação, preparação e entrega.
+* Vendas: 
 Os usuários poderão registrar as vendas realizadas em seus negócios.
-Será necessário informar os produtos vendidos, quantidade, dados, forma de pagamento e
-cliente.
-Formas de Pagamento
+Será necessário informar os produtos vendidos, quantidade, dados, forma de pagamento e cliente.
+* Formas de Pagamento: 
 O aplicativo terá suporte para pagamento por cartão e dinheiro.
 Os usuários poderão selecionar a forma de pagamento utilizada em cada venda.
-Função de Pendurar (Fiado)
+* Função de Pendurar (Fiado):
 O aplicativo permitirá que os usuários registrem vendas a crédito para clientes.
 Será necessário registrar o valor da venda, cliente e dados de vencimento.
-Cadastro de Clientes
-Os usuários poderão cadastrar informações dos clientes, como nome, telefone, endereço, entre
-outros.
+* Cadastro de Clientes: 
+Os usuários poderão cadastrar informações dos clientes, como nome, telefone, endereço, entreoutros.
 Esses dados serão usados para registro de vendas, pedidos e controle de pendências.
-Relatórios
+* Relatórios:
 O aplicativo fornecerá funcionalidades para geração de relatórios.
 Será possível gerar relatório de estoque, vendas realizadas e clientes que estão desenvolvendo.
-Requisitos Não Funcionais
-Além das funcionalidades descritas, o aplicativo deve atender aos seguintes requisitos não
-funcionais:
-7
-Documentação de Software e Projetos
-Por: Bruno Bertin Marquez
-Plataformas e Dispositivos Suportados
+#### Requisitos Não Funcionais
+Além das funcionalidades descritas, o aplicativo deve atender aos seguintes requisitos não funcionais:
+#### Plataformas e Dispositivos Suportados
 O aplicativo deve ser com dispositivos móveis compatíveis que executam os sistemas
 operacionais iOS e Android.
-Segurança
+* Segurança: 
 O aplicativo deve garantir a segurança dos dados dos usuários e clientes.
 As informações sensíveis devem ser armazenadas de forma criptografada.
-Desempenho
+* Desempenho:
 O aplicativo deve ser rápido e responsivo, mesmo em situações de alto volume de dados.
 O tempo de resposta das principais funcionalidades não deve ser superior a 3 segundos.
 Usabilidade
 O aplicativo deve ser intuitivo e fácil de usar, mesmo para usuários inexperientes.
 A interface do usuário deve ser clara, com elementos visuais bem organizados e legíveis.
-Restrições Técnicas
+#### Restrições Técnicas
 O aplicativo deve atender às seguintes restrições técnicas:
-Linguagem de Programação e Frameworks
-O desenvolvimento do aplicativo será realizado utilizando a linguagem de programação
-Kotlin, acompanhado de Frameworks como Kotlin Multiplatform Mobile, Flutter ou
-NativeScript para agilizar o desenvolvimento e garantir a eficiência do código.
-Banco de Dados
-O aplicativo requer um banco de dados para armazenar as informações dos produtos, estoque,
-clientes e vendas.
-Será utilizado SQLite, que é com as tecnologias selecionadas e oferece suporte adequado para
-a escalabilidade e segurança dos dados.
-8
-Documentação de Software e Projetos
-Por: Bruno Bertin Marquez
-Integrações
-O aplicativo poderá exigir integrações com outros sistemas ou APIs para funcionalidades
-específicas, como processamento de pagamentos.
-As integrações serão realizadas utilizando Twilio API for WhatsApp, Stripe, de acordo com
-as necessidades identificadas durante o processo de desenvolvimento.
-Plataformas e Requisitos de Sistema
+Linguagem de Programação e Frameworks.
+O desenvolvimento do aplicativo será realizado utilizando a linguagem de programação Kotlin, acompanhado de Frameworks como Kotlin Multiplatform Mobile, Flutter ou NativeScript para agilizar o desenvolvimento e garantir a eficiência do código.
+#### Banco de Dados
+O aplicativo requer um banco de dados para armazenar as informações dos produtos, estoque, clientes e vendas.
+Será utilizado SQLite, que é com as tecnologias selecionadas e oferece suporte adequado paraa escalabilidade e segurança dos dados.
+
+#### Integrações
+O aplicativo poderá exigir integrações com outros sistemas ou APIs para funcionalidades específicas, como processamento de pagamentos.
+As integrações serão realizadas utilizando Twilio API for WhatsApp, Stripe, de acordo com as necessidades identificadas durante o processo de desenvolvimento.
+#### Plataformas e Requisitos de Sistema
 O aplicativo será desenvolvido para dispositivos móveis nas plataformas iOS e Android.
-Serão considerados os requisitos de sistema mínimos para garantir que o aplicativo seja
-executado corretamente nos dispositivos móveis mais comuns, incluindo versões de sistema
-operacional compatível, capacidade de armazenamento e requisitos de memória.
-Arquitetura
-O aplicativo seguirá uma arquitetura de desenvolvimento em camadas (por exemplo, MVC,
-MVVM, etc.) para garantir a separação de responsabilidades e a modularidade do código.
-Testes
-Serão realizados testes unitários, de integração e de recepção para verificar a qualidade e
-funcionalidade do aplicativo.
-Será utilizada uma estratégia de testes adequada para garantir a cobertura abrangente e a
-detecção de possíveis erros e falhas.
-É importante considerar essas restrições técnicas ao longo do processo de desenvolvimento
-para garantir a eficiência, desempenho e compatibilidade do aplicativo móvel para comércios.
+Serão considerados os requisitos de sistema mínimos para garantir que o aplicativo seja executado corretamente nos dispositivos móveis mais comuns, incluindo versões de sistema operacional compatível, capacidade de armazenamento e requisitos de memória.
+#### Arquitetura
+O aplicativo seguirá uma arquitetura de desenvolvimento em camadas (por exemplo, MVC,MVVM, etc.) para garantir a separação de responsabilidades e a modularidade do código.
+#### Testes
+Serão realizados testes unitários, de integração e de recepção para verificar a qualidade efuncionalidade do aplicativo.
+Será utilizada uma estratégia de testes adequada para garantir a cobertura abrangente e a detecção de possíveis erros e falhas.
+É importante considerar essas restrições técnicas ao longo do processo de desenvolvimento para garantir a eficiência, desempenho e compatibilidade do aplicativo móvel para comércios.
 Conclusão
 Este levantamento de requisitos para o aplicativo móvel de comércio apresentou como
 funcionalidades principais, requisitos não funcionais e restrições técnicas necessárias para o
