@@ -171,31 +171,30 @@ Usuário do aplicativo de comércio eletrônico
 O usuário está autenticado no aplicativo.
 O usuário possui permissões adequadas para cadastrar produtos.
 #### Fluxo principal:
-1-) O usuário seleciona a opção de "Cadastro de Produtos" no aplicativo.
-2-) O sistema exibe um formulário de cadastro de produtos.
-3-) O usuário preenche os seguintes campos:
+* 1-) O usuário seleciona a opção de "Cadastro de Produtos" no aplicativo.
+* 2-) O sistema exibe um formulário de cadastro de produtos.
+* 3-) O usuário preenche os seguintes campos:
 3.a-) Nome do produto: O usuário insira o nome do produto desejado.
 3.b-) Descrição: O usuário fornece uma descrição detalhada do produto, destacando suas características, funcionalidades e benefícios.
 3.c-) Preço: O usuário especifica o preço do produto.
 3.d-) Categoria: O usuário seleciona a categoria à qual o produto pertence, como eletrônico, vestuário, alimentos, etc.
 3.e-) Imagem do produto: O usuário faz o upload de uma imagem do produto, que será
 exibida na página de detalhes do produto.
-4-) O sistema salva as informações do produto no banco de dados.
-5-) O sistema gera um identificador único para o produto cadastrado, que pode ser um número
-sequencial, um código alfanumérico ou qualquer outra forma de identificação única.
-6-) O sistema exibe uma mensagem de confirmação informando ao usuário que o produto foi cadastrado com sucesso, acompanhado de o identificador único gerado.
-7-) O usuário tem a opção de adicionar mais produtos, selecionando a opção “Adicionar Novo Produto” no aplicativo.
-8-) Caso o usuário não queira adicionar mais produtos, ele pode selecionar a opção “Finalizar” para encerrar o processo de cadastro de produtos.
-9-) O sistema redireciona o usuário de volta à página principal do aplicativo, onde ele pode visualizar uma lista de produtos cadastrados, realizar outras ações no aplicativo ou sair da sessão, conforme necessário.
-10-) O usuário concluiu o cadastro de produtos no aplicativo e agora pode disponibilizá-los para venda ou visualização pelos clientes.
-11-) O sistema armazena os dados do produto no banco de dados de forma persistente, para que as informações estejam disponíveis mesmo após o encerramento da sessão do usuário.
+* 4-) O sistema salva as informações do produto no banco de dados.
+* 5-) O sistema gera um identificador único para o produto cadastrado, que pode ser um número sequencial, um código alfanumérico ou qualquer outra forma de identificação única.
+* 6-) O sistema exibe uma mensagem de confirmação informando ao usuário que o produto foi cadastrado com sucesso, acompanhado de o identificador único gerado.
+* 7-) O usuário tem a opção de adicionar mais produtos, selecionando a opção “Adicionar Novo Produto” no aplicativo.
+* 8-) Caso o usuário não queira adicionar mais produtos, ele pode selecionar a opção “Finalizar” para encerrar o processo de cadastro de produtos.
+* 9-) O sistema redireciona o usuário de volta à página principal do aplicativo, onde ele pode visualizar uma lista de produtos cadastrados, realizar outras ações no aplicativo ou sair da sessão, conforme necessário.
+* 10-) O usuário concluiu o cadastro de produtos no aplicativo e agora pode disponibilizá-los para venda ou visualização pelos clientes.
+* 11-) O sistema armazena os dados do produto no banco de dados de forma persistente, para que as informações estejam disponíveis mesmo após o encerramento da sessão do usuário.
 Isso permite que os produtos cadastrados sejam utilizados em outras funcionalidades do aplicativo, como exibição na página de busca, recomendações de produtos relacionados, entre outras.
-12-) Os produtos cadastrados ficam disponíveis para os clientes visualizarem e adquirirem no aplicativo. Essa funcionalidade permite que os clientes pesquisem e encontrem os produtos desejados, utilizando filtros de busca, categorias e outros critérios de pesquisa.
+* 12-) Os produtos cadastrados ficam disponíveis para os clientes visualizarem e adquirirem no aplicativo. Essa funcionalidade permite que os clientes pesquisem e encontrem os produtos desejados, utilizando filtros de busca, categorias e outros critérios de pesquisa.
 Além disso, os produtos cadastrados podem ser gerenciados pelo usuário, permitindo que ele faça alterações nas informações, como atualização do preço, descrição, categoria ou imagem do produto, caso seja necessário.
-13-) O sistema também pode oferecer recursos adicionais, como a possibilidade de o usuário monitorar o estoque dos produtos cadastrados, receber notificações sobre vendas ou internamente dos clientes com os produtos, e gerar relatório de desempenho das vendas, auxiliando o usuário na gestão do seu negócio.
-14-) Em caso de necessidade de exclusão de um produto cadastrado, o usuário pode selecionar a opção de “Excluir Produto” no aplicativo. O sistema solicitará a confirmação do usuário antes de realizar a exclusão definitiva do produto do banco de dados. Após a confirmação, o produto será removido e não estará mais disponível para visualização ou compra pelos clientes.
-15-) O usuário concluiu o cadastro de produtos no aplicativo, os produtos estão disponíveis para visualização e compra pelos clientes, e o usuário tem a possibilidade de gerenciar, atualizar ou excluir os produtos conforme necessário.
-16-) O caso de uso é concluído. O usuário foi capaz de cadastrar novos produtos no aplicativo,fornecendo informações como nome, descrição, preço, categoria e imagem do produto. Essa funcionalidade permite que os produtos sejam disponibilizados aos clientes, ampliando asopções de compra no aplicativo de comércio eletrônico.
+* 13-) O sistema também pode oferecer recursos adicionais, como a possibilidade de o usuário monitorar o estoque dos produtos cadastrados, receber notificações sobre vendas ou internamente dos clientes com os produtos, e gerar relatório de desempenho das vendas, auxiliando o usuário na gestão do seu negócio.
+* 14-) Em caso de necessidade de exclusão de um produto cadastrado, o usuário pode selecionar a opção de “Excluir Produto” no aplicativo. O sistema solicitará a confirmação do usuário antes de realizar a exclusão definitiva do produto do banco de dados. Após a confirmação, o produto será removido e não estará mais disponível para visualização ou compra pelos clientes.
+* 15-) O usuário concluiu o cadastro de produtos no aplicativo, os produtos estão disponíveis para visualização e compra pelos clientes, e o usuário tem a possibilidade de gerenciar, atualizar ou excluir os produtos conforme necessário.
+* 16-) O caso de uso é concluído. O usuário foi capaz de cadastrar novos produtos no aplicativo,fornecendo informações como nome, descrição, preço, categoria e imagem do produto. Essa funcionalidade permite que os produtos sejam disponibilizados aos clientes, ampliando asopções de compra no aplicativo de comércio eletrônico.
 #### Caso de Uso: Registrar Entrada de Estoque de Produtos no Aplicativo de Comércio Eletrônico
 * Ator Principal
 Usuário
